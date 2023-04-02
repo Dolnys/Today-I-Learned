@@ -26,6 +26,9 @@ h1 {
 ul {
   list-style: none;
 }
+.hidden {
+  display: none !important;
+}
 
 .logo img {
   height: 6.8rem;
