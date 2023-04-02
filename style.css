@@ -49,19 +49,17 @@ ul {
   align-items: center;
   gap: 1.6rem;
 }
-.fact-form {
-  background-color: #44403c;
-  margin-bottom: 4rem;
-  padding: 1.6rem 3.2rem;
-  display: flex;
-  align-items: center;
-  gap: 1.6rem;
-  border-radius: 1.6rem;
-}
+
 .main {
   display: grid;
   grid-template-columns: 25rem 1fr;
   gap: 4.8rem;
+}
+
+@media (max-width: 900px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
 }
 
 .category {
@@ -78,6 +76,14 @@ ul {
   align-items: center;
   gap: 2.4rem;
   border-radius: 1.6rem;
+}
+
+@media (max-width: 1200px) {
+  .fact {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1.2rem;
+  }
 }
 
 .tag {
@@ -156,6 +162,18 @@ ul {
   background-image: none;
 }
 
+/* FORM */
+
+.fact-form {
+  background-color: #44403c;
+  margin-bottom: 4rem;
+  padding: 1.6rem 3.2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  border-radius: 1.6rem;
+}
+
 .fact-form input,
 .fact-form select {
   width: 22rem;
@@ -180,4 +198,24 @@ ul {
   font-weight: 600;
   font-size: 1.8rem;
   margin-right: 1.8rem;
+}
+
+@media (max-width: 1000px) {
+  body {
+    padding: 3.2rem 4.8rem;
+  }
+
+  .fact-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .fact-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .fact-form input,
+  .fact-form select {
+    width: auto;
+  }
 }
