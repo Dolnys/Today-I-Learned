@@ -52,7 +52,7 @@ function App() {
           query = query.eq("category", currentCategory);
 
         const { data: facts, error } = await query
-          .order("votesIntresting", { ascending: false })
+          .order("votesInteresting", { ascending: false })
           .limit(1000);
 
         if (!error) setFacts(facts);
@@ -259,6 +259,8 @@ function FactList({ facts, setFacts }) {
 
 function Fact({ fact, setFacts }) {
   const [isUpdating, setIsUpdating] = useState(false);
+  const isDisputed =
+    fact.votesInteresting + fact.votesMindBlowing < fact.votesFalse;
 
   async function handleVote(columnName) {
     setIsUpdating(true);
@@ -277,6 +279,7 @@ function Fact({ fact, setFacts }) {
   return (
     <li className="fact">
       <p>
+        {isDisputed ? <span className="disputed">[⛔DISPUTED]</span> : null}
         {fact.text}
         <a className="source" href={fact.source} target="_blank">
           (Source)
@@ -293,10 +296,10 @@ function Fact({ fact, setFacts }) {
       </span>
       <div className="vote-buttons">
         <button
-          onClick={() => handleVote("votesIntresting")}
+          onClick={() => handleVote("votesInteresting")}
           disabled={isUpdating}
         >
-          👍 {fact.votesIntresting}
+          👍 {fact.votesInteresting}
         </button>
         <button
           onClick={() => handleVote("votesMindBlowing")}
