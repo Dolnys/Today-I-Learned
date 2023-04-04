@@ -127,6 +127,9 @@ ul {
 .vote-buttons button:hover {
   background-color: #292524;
 }
+.vote-buttons button:disabled {
+  background-color: #44403c;
+}
 .source:link,
 .source:visited {
   margin-left: 1.2rem;
