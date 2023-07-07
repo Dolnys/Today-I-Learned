@@ -1,4 +1,4 @@
- # Learned Today  
+ # [Learned Today](https://learned-today.netlify.app/)  
  
 The "Learned Today" project is a website that allows users to share their daily learnings, interesting facts, information, and observations. It is a platform designed to facilitate collective learning and the discovery of new things every day.
 
@@ -38,4 +38,4 @@ React.js
 Node.js
 Supabase
 
-The "Learned Today" project is an impressive demonstration of leveraging modern web technologies to build a dynamic and engaging platform for sharing knowledge. You can visit the project's website here to experience its intuitive interface, discover insightful entries, and engage in enlightening discussions.
+The "Learned Today" project is an demonstration of leveraging modern web technologies to build a dynamic and engaging platform for sharing knowledge. You can visit the project's website [here](https://learned-today.netlify.app/) to experience its intuitive interface, discover insightful entries, and engage in enlightening discussions.
