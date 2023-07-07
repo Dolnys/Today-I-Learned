@@ -34,7 +34,7 @@ CSS3
 JavaScript
 React.js
 
-###Back-end:
+### Back-end:
 Node.js
 Supabase
 
