@@ -15,7 +15,7 @@ The homepage displays a list of published "learned today" entries. Users can bro
 Comments and Ratings
 Users have the ability to comment on other users' "learned today" entries, share their reflections, ask questions, and engage in discussions related to the shared information. They can also rate the entries based on their interest or usefulness.
 
-Getting Started
+## Getting Started
 To run the "Learned Today" project locally, follow these steps:
 
 Clone the repository: git clone https://github.com/your-username/learned-today.git
