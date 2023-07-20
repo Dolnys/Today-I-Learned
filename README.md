@@ -18,7 +18,7 @@ Users have the ability to comment on other users' "learned today" entries, share
 ## Getting Started
 To run the "Learned Today" project locally, follow these steps:
 
-Clone the repository: git clone https://github.com/your-username/learned-today.git
+Clone the repository: git clone https://github.com/Dolnys/Today-I-Learned
 Navigate to the project directory: cd learned-today
 Install the dependencies: npm install
 Start the development server: npm start
