@@ -2,7 +2,7 @@
  
 The "Learned Today" project is a website that allows users to share their daily learnings, interesting facts, information, and observations. It is a platform designed to facilitate collective learning and the discovery of new things every day.
 
-The website has been created to provide users with a space where they can share their knowledge with others, find inspiration, and acquire new information from fellow users. Each user can publish their "learned today" entry, which can be a short text, an image, or a link to an intriguing article or video material.
+The website has been created to provide users with a space where they can share their knowledge with others, find inspiration, and acquire new information from fellow users. Each user can publish their "learned today" entry as a short text.
 
 ## Features
 
